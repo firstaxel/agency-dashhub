@@ -48,3 +48,5 @@ next-env.d.ts
 .env*
 !.env.example
 >>>>>>> 0c4e601 (building a ui for agency)
+
+node_modules
