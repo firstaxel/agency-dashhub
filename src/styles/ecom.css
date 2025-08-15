@@ -1,0 +1,217 @@
+/* Header */
+
+.cta-btn {
+  padding: 1rem 2rem;
+  background-color: #0070f3;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0059b2;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  padding: 5rem 10%;
+}
+
+.main-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #1a202c;
+}
+
+.main-content p {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  color: #4a5568;
+}
+
+/* Feature Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  width: 30%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.feature-box h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.feature-box p {
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+/* Pricing Section */
+.pricing {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.pricing-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.pricing-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.pricing-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-card .price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+.pricing-card .cta-btn {
+  padding: 1rem 2rem;
+  background-color: #0070f3;
+  color: #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Exit Popup */
+.exit-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.exit-popup .popup-content {
+  background-color: #0070f3;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.exit-popup .popup-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.exit-popup .popup-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.exit-popup .popup-content .cta-btn {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: #0070f3;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 3rem 5%;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-content p {
+    font-size: 1.125rem;
+  }
+
+  .cta-btn {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box {
+    width: 80%;
+  }
+
+  .pricing-table {
+    flex-direction: column;
+  }
+
+  .pricing-card {
+    width: 80%;
+    max-width: none;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .cta-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .pricing h2 {
+    font-size: 2rem;
+  }
+
+  .pricing-card .price {
+    font-size: 2rem;
+  }
+}
